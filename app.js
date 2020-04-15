@@ -11,6 +11,8 @@ app.use((req, res, next)=> {
     next();
 })
 
+// Routes
+
 // Start Server
 app.listen(port, () => {
     console.log(`Running on the designated port : ${port}`)
